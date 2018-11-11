@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Minesweeper should render minesweeper 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Minesweeper
+    getPlayers={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    initGame={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        null,
+        <div
+          style={
+            Object {
+              "alignItem": "center",
+              "display": "flex",
+              "flex": 1,
+              "justifyContent": "space-between",
+              "minHeight": "300px",
+            }
+          }
+        >
+          <list
+            style={
+              Object {
+                "flex": 1.5,
+                "maxHeight": "350px",
+                "overflow": "scroll",
+              }
+            }
+          />
+          <Connect(Main)
+            setResult={[Function]}
+            style={
+              Object {
+                "display": "grid",
+                "gridTemplateColumns": "repeat(30, 20px)",
+                "maxWidth": "600px",
+                "padding": "10px",
+              }
+            }
+          />
+          <RightComponent
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flex": 0.8,
+                "flexDirection": "column",
+              }
+            }
+            time="00:00"
+          />
+        </div>,
+      ],
+      "style": Object {
+        "alignItem": "center",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <list
+              style={
+                Object {
+                  "flex": 1.5,
+                  "maxHeight": "350px",
+                  "overflow": "scroll",
+                }
+              }
+            />,
+            <Connect(Main)
+              setResult={[Function]}
+              style={
+                Object {
+                  "display": "grid",
+                  "gridTemplateColumns": "repeat(30, 20px)",
+                  "maxWidth": "600px",
+                  "padding": "10px",
+                }
+              }
+            />,
+            <RightComponent
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flex": 0.8,
+                  "flexDirection": "column",
+                }
+              }
+              time="00:00"
+            />,
+          ],
+          "style": Object {
+            "alignItem": "center",
+            "display": "flex",
+            "flex": 1,
+            "justifyContent": "space-between",
+            "minHeight": "300px",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "playersList": undefined,
+              "style": Object {
+                "flex": 1.5,
+                "maxHeight": "350px",
+                "overflow": "scroll",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "mines": undefined,
+              "setResult": [Function],
+              "style": Object {
+                "display": "grid",
+                "gridTemplateColumns": "repeat(30, 20px)",
+                "maxWidth": "600px",
+                "padding": "10px",
+              },
+              "table": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "mines": undefined,
+              "style": Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flex": 0.8,
+                "flexDirection": "column",
+              },
+              "time": "00:00",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          <div
+            style={
+              Object {
+                "alignItem": "center",
+                "display": "flex",
+                "flex": 1,
+                "justifyContent": "space-between",
+                "minHeight": "300px",
+              }
+            }
+          >
+            <list
+              style={
+                Object {
+                  "flex": 1.5,
+                  "maxHeight": "350px",
+                  "overflow": "scroll",
+                }
+              }
+            />
+            <Connect(Main)
+              setResult={[Function]}
+              style={
+                Object {
+                  "display": "grid",
+                  "gridTemplateColumns": "repeat(30, 20px)",
+                  "maxWidth": "600px",
+                  "padding": "10px",
+                }
+              }
+            />
+            <RightComponent
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flex": 0.8,
+                  "flexDirection": "column",
+                }
+              }
+              time="00:00"
+            />
+          </div>,
+        ],
+        "style": Object {
+          "alignItem": "center",
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <list
+                style={
+                  Object {
+                    "flex": 1.5,
+                    "maxHeight": "350px",
+                    "overflow": "scroll",
+                  }
+                }
+              />,
+              <Connect(Main)
+                setResult={[Function]}
+                style={
+                  Object {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(30, 20px)",
+                    "maxWidth": "600px",
+                    "padding": "10px",
+                  }
+                }
+              />,
+              <RightComponent
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flex": 0.8,
+                    "flexDirection": "column",
+                  }
+                }
+                time="00:00"
+              />,
+            ],
+            "style": Object {
+              "alignItem": "center",
+              "display": "flex",
+              "flex": 1,
+              "justifyContent": "space-between",
+              "minHeight": "300px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "playersList": undefined,
+                "style": Object {
+                  "flex": 1.5,
+                  "maxHeight": "350px",
+                  "overflow": "scroll",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "mines": undefined,
+                "setResult": [Function],
+                "style": Object {
+                  "display": "grid",
+                  "gridTemplateColumns": "repeat(30, 20px)",
+                  "maxWidth": "600px",
+                  "padding": "10px",
+                },
+                "table": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "mines": undefined,
+                "style": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flex": 0.8,
+                  "flexDirection": "column",
+                },
+                "time": "00:00",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
