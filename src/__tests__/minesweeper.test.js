@@ -6,8 +6,6 @@ import { Minesweeper } from '../index';
 configure({ adapter: new Adapter() });
 
 describe('Minesweeper', () => {
-  //const getPlayers = jest.fn();
-  //const initGame = jest.fn();
   it('should render minesweeper', () => {
     const wrapper = shallow(<Minesweeper />);
     expect(wrapper).toMatchSnapshot();
